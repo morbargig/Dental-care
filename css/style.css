@@ -8,7 +8,7 @@ body {
 }
 
 #landing {
-    background-image: url("/images/landing.jpg");
+    background-image: url("../images/landing.jpeg");
     background-position: bottom;
     background-size: cover;
     color: white;
@@ -24,10 +24,10 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: webkit-gradient(linear, left top, right bottom, from(#000000), to(#2c2827));
+    background-image: -webkit-radial-gradient(linear, left top, right bottom, from(#000000), to(#2c2827));
     background-image: -o-linear-gradient(top left, #000000, #2c2827);
     background-image: linear-gradient(to bottom right, #000000, #2c2827);
-    opacity: .7;
+    opacity: .2;
 }
 
 .landing-text {
